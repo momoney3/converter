@@ -56,10 +56,14 @@ func processCSV(reader *csv.Reader) {
 	}
 }
 
-// TODO: Pull data from CSV file and add the information to a struckt.
+// Modify data to remove errors
+func modifyCSV()
+
+// TODO: Pull data from CSV file and add the information to a struct.
+// TODO: next step is to fix the object error
 
 func main() {
-	data, err := readCSV("data.csv")
+	data, err := readCSV("testdata.csv")
 	if err != nil {
 		fmt.Println("Error readign file:", err)
 		return
