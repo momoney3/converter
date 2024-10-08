@@ -1,0 +1,91 @@
+`{
+  "name": "DS-Tracy-Locke-SMB-Haygarth",
+  "authStrategy": "bigIDCredentialAuthentication",
+  "authenticationProperties": {
+    "@authenticationType": "bigIDCredentialAuthentication",
+    "credentialID": [
+      {
+        "id": "svc_bigid@TRACYLOCKE.ORG (folder_5827/secret_158086)",
+        "value": "svc_bigid@TRACYLOCKE.ORG (folder_5827/secret_158086)",
+        "label": "svc_bigid@TRACYLOCKE.ORG (folder_5827/secret_158086) (Custom)"
+      }
+    ]
+  },
+  "autoRetry": false,
+  "classification_is_enabled": true,
+  "containerizedFilter": {
+    "@containerizedFilterType": "containerizedSpecificNameFilter",
+    "specificNameFilters": {
+      "containerUseCase": {
+        "name": "Haygarth",
+        "useCase": "INCLUDE"
+      },
+      "subContainerUseCase": {
+        "name": "",
+        "useCase": "INCLUDE"
+      }
+    }
+  },
+  "containerizedFilterType": "containerizedSpecificNameFilter",
+  "contentSamplingDropDown": "contentNoneSampling",
+  "contentSamplingProperties": {
+    "@contentSamplingType": "contentNoneSampling",
+    "limit": ""
+  },
+  "description": "",
+  "differentialFilter": {
+    "@differentialType": "differentialLastScanFilter"
+  },
+  "differentialType": "differentialLastScanFilter",
+  "enabled": true,
+  "enumerationSamplingDropDown": "enumerationNoneSampling",
+  "enumerationSamplingProperties": {
+    "@enumerationSamplingType": "enumerationNoneSampling"
+  },
+  "friendly_name": "Confidential",
+  "is_idsor_supported": false,
+  "location": "United States of America",
+  "notAddToScope": true,
+  "numberOfParsingThreads": 10,
+  "ocrParameters": {
+    "enabledOcr": false
+  },
+  "owners_v2": [
+    {
+      "origin": "legacy",
+      "id": "Alison Nickerson",
+      "email": "Alison Nickerson",
+      "type": "business",
+      "isNotified": ""
+    },
+    {
+      "origin": "legacy",
+      "id": "vann.godfrey@tracylocke.com",
+      "email": "vann.godfrey@tracylocke.com",
+      "type": "it",
+      "isNotified": true
+    }
+  ],
+  "resourceProperties": {
+    "resourceAddress": "100.117.40.121",
+    "resourceEntry": "tracylocke.org"
+  },
+  "scanner_group": "AWSAUE1-Scanner-Group-01",
+  "security_tier": true,
+  "stopOnEnumerationFailure": false,
+  "type": "smb_v2",
+  "typeRequestProperties": {
+    "@requestType": "unstructureRequestProperties",
+    "extractArchives": true,
+    "enableStructuredFilesDiscovery": true,
+    "ignoreTypes": "mp3,wav,flac"
+  },
+  "comment": "",
+  "scanWindowName": "",
+  "dsAclScanEnabled": true,
+  "metadataAclScanEnabled": true,
+  "Is_sample_files": "",
+  "Is_sample_folders": "",
+  "rdb_is_sample_data": ""
+}`
+
