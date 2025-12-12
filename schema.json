@@ -1,13 +1,13 @@
 `{
-  "name": "DS-Tracy-Locke-SMB-Haygarth",
+  "name": "DS--Locke-SMB-Hayh",
   "authStrategy": "bigIDCredentialAuthentication",
   "authenticationProperties": {
     "@authenticationType": "bigIDCredentialAuthentication",
     "credentialID": [
       {
-        "id": "svc_bigid@TRACYLOCKE.ORG (folder_5827/secret_158086)",
-        "value": "svc_bigid@TRACYLOCKE.ORG (folder_5827/secret_158086)",
-        "label": "svc_bigid@TRACYLOCKE.ORG (folder_5827/secret_158086) (Custom)"
+        "id": "svc_bigid@TRACORG (folder_5827/secret_386)",
+        "value": "svc_bigid@.ORG (folder_533secret_1533)",
+        "label": "svc_bigid@TRA.ORG (folder_5827/secret_158086) (Custom)"
       }
     ]
   },
@@ -53,22 +53,22 @@
   "owners_v2": [
     {
       "origin": "legacy",
-      "id": "Alison Nickerson",
-      "email": "Alison Nickerson",
+      "id": "Al Nickn",
+      "email": "Al Ni",
       "type": "business",
       "isNotified": ""
     },
     {
       "origin": "legacy",
-      "id": "vann.godfrey@tracylocke.com",
-      "email": "vann.godfrey@tracylocke.com",
+      "id": "vann.com",
+      "email": "vanncom",
       "type": "it",
       "isNotified": true
     }
   ],
   "resourceProperties": {
-    "resourceAddress": "100.117.40.121",
-    "resourceEntry": "tracylocke.org"
+    "resourceAddress": "133.373.40.33",
+    "resourceEntry": "tracye.org"
   },
   "scanner_group": "AWSAUE1-Scanner-Group-01",
   "security_tier": true,
